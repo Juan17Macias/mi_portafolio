@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Juan C. Macias" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollador Juan C. Macias N."
+    />
+    <!--Plabras clave de la pagina-->
+    <meta name="keywords" content="HTML5,CSS3, JavaScript, MySql, Bootstrap" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juan C. Macias | DEV</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./img/minlog.png" />
+    <!--archivo de estilos -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!--Icons boostrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--  BREAKPOINT
+        .row filas 
+        .col- columna 
+              xs (muy pequeño)         <576px
+        .col-sm- (small - pequeño)     >=576px
+        .col-md- (tamaño medio)        >=768px
+        .col-lg- (tamaño Grande)       >=992px
+        .col-xl- (tamaño muy grande)   >=1200px
+             xxl (tamaño estra grande) >=1400px
+      -->
+
+    <!--Fuenes o font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@500&family=Rubik+Dirt&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-togler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-togler">
+          <a class="navbar-brand" href="#">
+            <img src="./img/minlog.png" width="50" alt="logo de la pagina " />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi"
+                >Sobre Mi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Seccion Hero-->
+    <section class="hero align-items-strecth">
+      <div class="hero-principal">
+        <img class="img-perfil" src="img/perfil.jpg" alt="logo juan macias" />
+        <h1>Hola, Soy Juan Macias</h1>
+        <h2>Ingeniero de Sistemas y Desarrollador Front-End</h2>
+      </div>
+
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-img img-fluid"
+          src="img/hero-in.png"
+          alt="Comptadora info global"
+        />
+      </div>
+    </section>
+
+    <!--Sobre mi-->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo texto-blanco">Conoce a Juan Macias</h2>
+        <p class="seccion-texto sobremi-texto">
+          Como ingeniero de sistemas y programador junior, tengo conocimientos y
+          habilidades en: <br />
+
+          * HTML5: Uso de marcado para crear estructura y contenido de páginas
+          web. <br />
+
+          * CSS3: Estilización y diseño visual de páginas web. <br />
+
+          * JavaScript: Programación en el lado del cliente para agregar
+          interactividad y dinamismo a las páginas web. <br />
+
+          * Bootstrap: Framework de diseño responsivo y de fácil uso para crear
+          páginas web atractivas y accesibles. <br />
+
+          Además, estoy comprometido a seguir aprendiendo y mejorando mis
+          habilidades para ofrecer soluciones eficientes y de calidad. ¿Hay
+          algún proyecto en particular en el que pueda ayudarte?
+        </p>
+      </div>
+    </section>
+
+    <!--Experiencia -->
+    <section  class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!--Desarollo web-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <h2>Desarrollo web</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              dolore aut quaerat beatae deleniti esse, tempore impedit libero
+              minima placeat maxime ducimus laudantium voluptas nihil odio sed?
+              Aliquam, ab quidem.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge bg-primary">Html5</span>
+              <span class="badge bg-primary">Css3</span>
+              <span class="badge bg-primary">Bootstrap</span>
+              <span class="badge bg-primary">JavaScript</span>
+              <span class="badge bg-primary">MySql</span>
+              <span class="badge bg-primary">React</span>
+            </div>
+          </div>
+
+          <!--Otros Trabajos-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-person-vcard-fill"></i>
+            <h2>Otros Trabajos</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              dolore aut quaerat beatae deleniti esse, tempore impedit libero
+              minima placeat maxime ducimus laudantium voluptas nihil odio sed?
+              Aliquam, ab quidem.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge bg-primary">Administrador Sisben IV</span>
+              <span class="badge bg-primary">Auxiliar Ferreteria</span>
+              <span class="badge bg-primary">Sisemas Cafe Galileo S.A.S</span>
+            </div>
+          </div>
+
+          <!--Estudiante-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-bookmark-star-fill"></i>
+            <h2>Estudios Realizados</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              dolore aut quaerat beatae deleniti esse, tempore impedit libero
+              minima placeat maxime ducimus laudantium voluptas nihil odio sed?
+              Aliquam, ab quidem.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge bg-primary">Ing. de Sistemas (UNAD)</span>
+              <span class="badge bg-primary"
+                >Analisis y Desarrollo de Sistemas <br />
+                (SENA)</span
+              >
+              <span class="badge bg-primary">Tec. en Sistemas (Eductec)</span>
+              <span class="badge bg-primary">Prgramador back-end (Oracle)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+      <h3 class="seccion-descripcion">
+        Estos son algunos de los proyectos que he desarrollado
+      </h3>
+      <!-- Galeria de Proyectos-->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!--Proyecto1-->
+          <div class="col-12 col-med-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/img/proyecto-1.jpg" alt="proyecto de trabajo" />
+              <div class="overlay">
+                <p>Compuservicios</p>
+                <p>WordPress</p>
+
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://www.compuservicios.com.co/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Proyecto2-->
+          <div class="col-12 col-med-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/img/pyoyectos-2.jpg" alt="proyecto de trabajo" />
+              <div class="overlay">
+                <p>Cafe Galileo</p>
+                <p>Html5, Css3, Bootstrap y JS</p>
+
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://pruebacafeg.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Juan17Macias/cafe_galileo.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Proyecto3-->
+          <div class="col-12 col-med-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/img/proyecto-3.jpg" alt="proyecto de trabajo" />
+              <div class="overlay">
+                <p>Cafe Galileo</p>
+                <p>Codigo Native Html5, Css3 y JS</p>
+
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://pruebacafeg.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Juan17Macias/cafe_galileo.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Proyecto4-->
+          <div class="col-12 col-med-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/img/proyecto-4.jpeg" alt="proyecto de trabajo" />
+              <div class="overlay">
+                <p>Dividir Archivos Excel de Gran tamaño</p>
+                <p>Phython</p>
+
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://pruebacafeg.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Juan17Macias/cafe_galileo.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Proyecto5-->
+          <div class="col-12 col-med-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/img/hope.jpg" alt="proyecto de trabajo" />
+              <div class="overlay">
+                <p>vacio</p>
+                <p>programando</p>
+
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://pruebacafeg.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Juan17Macias/cafe_galileo.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Proyecto6-->
+          <div class="col-12 col-med-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/img/hope.jpg" alt="proyecto de trabajo" />
+              <div class="overlay">
+                <p>vacio</p>
+                <p>Programando</p>
+
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://pruebacafeg.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Juan17Macias/cafe_galileo.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+        ><button type="button" class="btn btn-info">
+          Ver Mas proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i></button
+      ></a>
+    </section>
+
+    <!--Testimonios-->
+
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion descripcion">
+        Estos son algunos de los testimonios de mis colegas
+      </h3>
+
+      <!--carrusel-->
+
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img
+                class="testimonio-img rounded-circle"
+                src="img/icons/p1.svg"
+                alt="testimonio jefe 1"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+                asperiores aliquam ullam recusandae aliquid magni, doloremque
+                placeat ipsam sequi deleniti laborum quos id officiis. Dicta
+                libero enim facere neque delectus.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Andres</p>
+                <p class="cargo">Gerente computadores Douc</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-img rounded-circle"
+                src="img/icons/p2.svg"
+                alt="testimonio jefe 1"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+                asperiores aliquam ullam recusandae aliquid magni, doloremque
+                placeat ipsam sequi deleniti laborum quos id officiis. Dicta
+                libero enim facere neque delectus.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Juan</p>
+                <p class="cargo">Gerente computadores Douc</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-img rounded-circle"
+                src="img/icons/p3.svg"
+                alt="testimonio jefe 1"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+                asperiores aliquam ullam recusandae aliquid magni, doloremque
+                placeat ipsam sequi deleniti laborum quos id officiis. Dicta
+                libero enim facere neque delectus.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Nicolas</p>
+                <p class="cargo">Gerente computadores Douc</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonios-carrusel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonios-carrusel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div
+          class="container text-center rectangulo d-flex justify-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">¡Hablemos!</div>
+            <div class="col 12 col-md-4 descripcion">
+              Contactame para el desarrollo de tu aplicacion!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:kcy1794@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-logo"
+        src="img/log-por.svg"
+        alt="Logo del Portafolio"
+      />
+      <p class="footer-texto text-center">
+        ¡Aprendo y creo todos los dias! <br />
+        Creemos algo nuevo juntos
+      </p>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          rel="nooperner noreferrer"
+        >
+          <i class="bi bi-twitter"></i>
+        </a>
+
+        <a
+          href="https://www.facebook.com/Juan7Noguera/"
+          target="_blank"
+          rel="nooperner noreferrer"
+        >
+          <i class="bi bi-facebook"></i>
+        </a>
+
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="nooperner noreferrer"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+
+        <a
+          href="https://github.com/Juan17Macias"
+          target="_blank"
+          rel="nooperner noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/juan-macias-c19941709/"
+          target="_blank"
+          rel="nooperner noreferrer"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a
+          href="mailto:kcy1794@gmail.com"
+          target="_blank"
+          rel="nooperner noreferrer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+
+      <div class="derechos-de-autor">Creado Por Juan C. Macias (2023) &#169;</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
