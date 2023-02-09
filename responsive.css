@@ -3,16 +3,23 @@
     .navbar-brand{
         display: none;
         }
-
+        .img-perfil {
+            width: 40vw;
+            margin-top: 0%;
+            margin-left: 10%;
+        }
         .soyj {
-            margin-top: -40%;
-            margin-left: -40%;
+            margin-top: 3%;
+            margin-left:0%;
            }
 
            .hero-principal h2 {
-            font-size: 0.9em;
-            margin-left: -40%;
+            font-size: 1rem;
+            margin-left: 0%;
           }
+        .sobremi-texto{
+            font-size: 0.8rem;
+        }
 
         .testimonio-img{
             height: 110px;
