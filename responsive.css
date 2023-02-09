@@ -4,6 +4,16 @@
         display: none;
         }
 
+        .soyj {
+            margin-top: -40%;
+            margin-left: -40%;
+           }
+
+           .hero-principal h2 {
+            font-size: 0.9em;
+            margin-left: -40%;
+          }
+
         .testimonio-img{
             height: 110px;
             width: 110px;
@@ -11,6 +21,7 @@
         .testimonio-texto{
             font-size: 18px;
         }
+
 }
 
 @media screen and ( min-width: 700px) {

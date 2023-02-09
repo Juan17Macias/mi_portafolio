@@ -1,11 +1,11 @@
 .navbar {
-  background: rgb(170, 170, 172);
+  background: rgb(138, 138, 139);
   font-size: larger;
   position: fixed;
 }
 
 .navbar li a{
-  color: rgb(4, 5, 65);
+  color: rgb(70, 21, 15);
   font-size: 1.5rem;
   font-family: 'Comfortaa', cursive;
   font-weight: bold
@@ -38,7 +38,7 @@ h1 {
 
 .seccion-oscura {
   color: white;
-  background-color: rgb(20, 20, 44);
+  background-color: rgb(44, 44, 83);
 }
 .seccion-clara {
   color: black;
@@ -54,7 +54,7 @@ h1 {
   color: rgb(95, 87, 87);
 }
 .seccion-texto {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .texto-negro {
@@ -67,9 +67,9 @@ h1 {
 /*--------------------------------------/////--------------------------------------------------*/
 /*seccion principal*/
 .hero {
-  background-color: rgb(211, 203, 203);
-  min-height: 450px;
-  text-align: center;
+  background-color: rgb(255, 255, 255);
+  min-height: 500px;
+  height: 90vh;
 }
 .hero-principal {
   padding: 1rem;
@@ -78,28 +78,46 @@ h1 {
 .img-perfil {
   width: 30vw;
   border-radius: 50%;
-  margin: 15px;
+  margin-top: -25%;
   border: solid 1px rgb(189, 184, 184);
   box-shadow: 4px 4px 4px 4px rgb(201, 190, 190);
+  margin-left: 60%;
 }
-.hero-principal h1 {
+
+.img-perfil:hover {
+  border: solid 1px rgb(231, 227, 227);
+  box-shadow: 0px 8px 8px 4px rgb(97, 42, 5);
+  
+}
+.soyj {
   color: rgb(54, 5, 5);
-}
+  margin-top: -65%;
+  margin-left: -50%;
+  font-size: 4vw;
+ }
 .hero-principal h2 {
   font-size: 1.5rem;
   color: rgb(54, 5, 5);
+  margin-left: -48%;
 }
+
+.hero-inferior{
+  margin-top: 11rem;
+}
+
 
 /* Sobre Mi*/
 
 .sobre-mi {
   height: 500px;
   padding: 10px;
-}
+  background:linear-gradient(rgb(15, 15, 32), rgb(88, 165, 165), rgb(9, 17, 63) );
+  }
 
 .sobre-mi .contenedor {
   max-width: 600px;
   text-align: center;
+  
 }
 .sobremi-texto {
   text-align: justify;
@@ -109,6 +127,9 @@ h1 {
 
 .experiencia {
   padding: 40px 40px 60px 40px;
+  }
+.experiencia-info{
+  text-align: justify;
 }
 .experiencia .columna {
   padding: 20px;
@@ -122,16 +143,28 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: rgb(20, 20, 32);
+  background: linear-gradient(
+    217deg,
+    rgba(23, 55, 197, 0.8),
+    rgba(228, 215, 215, 0) 70.71%
+  ), linear-gradient(127deg, rgba(20, 19, 19, 0.8), rgba(158, 151, 126, 0) 70.71%),
+  linear-gradient(336deg, rgba(202, 85, 17, 0.8), rgba(0, 0, 255, 0) 70.71%);
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: rgb(3, 161, 223);
-  background-color: rgb(75, 72, 72);
+  color: rgb(253, 253, 253);
+  background-color: rgb(31, 27, 87);
   padding: 8px 19px;
   border-radius: 50%;
 }
+
+.experiencia .columna:hover  i{
+  color: rgb(10, 10, 10);
+  background-color: rgb(250, 252, 249);
+
+}
+
 .badges-contenedor {
   font-size: 20px;
   font-weight: bold;
@@ -170,9 +203,10 @@ h1 {
 }
 
 .overlay p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 0;
+  color: rgb(104, 45, 11);
 }
 
 .proyecto {
@@ -191,17 +225,17 @@ h1 {
 }
 
 .overlay i {
-  color: rgb(0, 38, 255);
+  color: rgb(115, 123, 168);
   font-size: 60px;
   margin: 10px;
 }
 
-/*Testimonios */
+/*servicios */
 
-.testimonios {
+.servicios {
   padding: 40px 40px 80px 40px;
 }
-.testimonios .carousel {
+.servicios .carousel {
   max-width: 600px;
 }
 .carousel-item {
@@ -216,30 +250,30 @@ h1 {
   align-items: center;
 }
 
-.testimonio-img {
+.servicio-img {
   height: 120px;
   width: 120px;
   margin: 10px 10px 20px 10px;
 }
-.testimonio-texto {
+.servicio-texto {
   max-width: 70%;
   font-size: 20px;
   text-align: center;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Kalam', cursive;
 }
 
-.testimonio-info {
+.servicio-info {
   font-weight: bold;
   text-align: center;
 }
-.testimonio-info p {
+.servicio-info p {
   margin-bottom: 0;
 }
 
-.testimonio-info .cliente {
+.servicio-info .cliente {
   font-size: 1.2rem;
 }
-.testimonio-info .cargo {
+.servicio-info .cargo {
   font-size: 0.9rem;
   color: rgb(87, 109, 109);
 }
