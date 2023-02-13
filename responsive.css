@@ -3,31 +3,28 @@
     .navbar-brand{
         display: none;
         }
+
         .img-perfil {
-            width: 40vw;
-            margin-top: 0%;
-            margin-left: 10%;
-        }
-        .soyj {
-            margin-top: 3%;
-            margin-left:0%;
-           }
-
-           .hero-principal h2 {
-            font-size: 1rem;
-            margin-left: 0%;
+            width: 50vw;
+            margin-top: -5%;
+            margin-left: 48%;
           }
-        .sobremi-texto{
-            font-size: 0.8rem;
+          .soyj {
+            margin-top: -35%;
+            margin-left: 0.8vw;
+            font-size: 4.5vw;
         }
+        .hero-principal h2 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: rgb(54, 5, 5);
+            margin-left: -3%;
+            margin-top:40%;
+            text-align: center;
+          }
 
-        .testimonio-img{
-            height: 110px;
-            width: 110px;
-        }
-        .testimonio-texto{
-            font-size: 18px;
-        }
+           
+
 
 }
 
