@@ -78,10 +78,9 @@ h1 {
 .img-perfil {
   width: 30vw;
   border-radius: 50%;
-  margin-top: -25%;
+  margin-top: 5%;
   border: solid 1px rgb(189, 184, 184);
   box-shadow: 4px 4px 4px 4px rgb(201, 190, 190);
-  margin-left: 60%;
 }
 
 .img-perfil:hover {
@@ -91,14 +90,11 @@ h1 {
 }
 .soyj {
   color: rgb(54, 5, 5);
-  margin-top: -65%;
-  margin-left: -50%;
-  font-size: 4vw;
+  font-size: 3.5vw;
  }
 .hero-principal h2 {
   font-size: 1.5rem;
   color: rgb(54, 5, 5);
-  margin-left: -48%;
 }
 
 .hero-inferior{
